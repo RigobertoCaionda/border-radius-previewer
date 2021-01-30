@@ -1,0 +1,57 @@
+*{
+	margin:0;
+	padding:0;
+	outline: none;
+}
+body{
+	background-color: #3d3d3d;
+}
+.container{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+	grid-gap: 15px;
+	grid-template-areas: 
+		"input1 quadrado input2"
+		"input3 quadrado input4"
+	;
+}
+.quadrado{
+	width: 500px;
+	height: 350px;
+	background-color: #e9eaee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.quadradoInterno{
+	width: 400px;
+	height: 250px;
+	background-color: #fafafc;
+	border:1px solid #ccc;
+}
+input{
+	width: 25px;
+	height: 25px;
+	background-color: #3d3d3d;
+	border:1px solid rgba(0,0,0,0.3);
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+.input1{
+	grid-area: input1;
+}
+.quadrado{
+	grid-area: quadrado;
+}
+.input2{
+	grid-area: input2;
+}
+.input3{
+	grid-area: input3;
+}
+.input4{
+	grid-area: input4;
+}

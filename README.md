@@ -1,0 +1,1 @@
+I'm just creating a border-radius previewer... You put a value for border-radius and the software has to use the number you put to set the border-radius.
